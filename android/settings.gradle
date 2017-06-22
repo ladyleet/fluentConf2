@@ -1,0 +1,3 @@
+rootProject.name = 'fluentConf2'
+
+include ':app'
