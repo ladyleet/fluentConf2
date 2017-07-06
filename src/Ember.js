@@ -21,3 +21,9 @@ export default class Ember extends Component {
     );
   }
 }
+
+Ember.navigationOptions = {
+  tabBarIcon: () => (
+    <Image source={require('./img/ember.png')}/>
+  )
+}

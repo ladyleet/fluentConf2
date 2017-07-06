@@ -21,3 +21,9 @@ export default class ReactJS extends Component {
     );
   }
 }
+
+ReactJS.navigationOptions = {
+  tabBarIcon: () => (
+    <Image source={require('./img/react.png')}/>
+  )
+}
