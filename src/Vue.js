@@ -50,3 +50,12 @@ export default class Vue extends Component {
 //     <Image source={require('./img/vue.png')}/>
 //   )
 // }
+
+/*<ScrollView>
+  {data.map(jeopardy => 
+    <View>
+      <Question q={jeopardy.Q}/>
+      <Answer a={jeopardy.A}/>
+    </View>
+  )}
+</ScrollView>*/
