@@ -21,3 +21,8 @@ export default class Angular extends Component {
     );
   }
 }
+
+Angular.navigationOptions = {
+  tabBarIcon: () =>
+    <Image source={require('./img/angular.png')}/>
+}
